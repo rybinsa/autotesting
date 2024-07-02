@@ -4,6 +4,7 @@ from selenium.webdriver.common.by import By
 import json
 import time
 
+
 @pytest.fixture(scope="session")
 def load_person_date():
     # Открываем файл с конфигом в режиме чтения
